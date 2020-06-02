@@ -1,11 +1,9 @@
-Intelligent Customer Help Desk with Smart Document Understanding. This is repository build with the help of Watson Assistant, Discovery, Cloud Function and Node Red app of IBM Cloud. It is made with the regard of partial fulfillment of Smartinternz Internship Program at smartbrigde.
+Intelligent Customer Help Desk with Smart Document Understanding is my internship project of 2020 in SmartInternz Internship Program at SmartBrigde. Here I got the access to IBM lite account and I used several IBM lite services such as Watson Assistant, Discovery, Cloud Function and Node Red App.
 
-#Project Description : The typical customer care chatbot can answer simple questions, such as store locations and hours, directions, and maybe even making appointments. When a question falls outside of the scope of the pre-determined question set, the option is typically to tell the customer the question isn’t valid or offer to speak to a real person.
+Working of Project : The typical customer care chatbot can answer simple questions, such as store locations and hours, directions, and maybe even making appointments. When a question falls outside of the scope of the pre-determined question set, the option is typically to tell the customer that the question isn’t valid or offer to speak to a real person but here we will be having another option as Watson Discovery Service which has been pre-loaded with the device’s owners manual. So now, instead of “Would you like to speak to a customer representative?” we can return relevant sections of the owners manual to help solve our customers’ problems. This will improve the answers returned from the queries.
 
-In this project, there will be another option. If the customer question is about the operation of a device, the application shall pass the question onto Watson Discovery Service, which has been pre-loaded with the device’s owners manual. So now, instead of “Would you like to speak to a customer representative?” we can return relevant sections of the owners manual to help solve our customers’ problems. To take it a step further, the project shall use the Smart Document Understanding feature of Watson Discovery to train it on what text in the owners manual is important and what is not. This will improve the answers returned from the queries. Scope of Work Create a customer care dialog skill in Watson Assistant Use Smart Document Understanding to build an enhanced Watson Discovery collection Create an IBM Cloud Functions web action that allows Watson Assistant to post queries to Watson Discovery Build a web application with integration to all these services & deploy the same on IBM Cloud Platform
+In Watson Discovery I have added ecobee3_UserGuidepurposeful as the owner's manual.
 
-In Watson Discovery I have added ecobee3_userguide.
+Node-Red Dashboard link after deploying : https://zerod.eu-gb.mybluemix.net/ui/#!/0?socketid=Rrmftsx6o1MPiMn7AAAi
 
-Node-Red Dashboard link after deploying : https://node-red-xvpnn.mybluemix.net/ui
-
-Youtube video link is : https://youtu.be/em_pgZ4tZrM
+Youtube video link is : https://youtu.be/DXPWyoMdL6A
